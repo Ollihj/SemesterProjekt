@@ -1,6 +1,8 @@
 import { upload } from 'pg-upload';
 import { connect } from './connect.js';
 
+//TEST AF GIT
+
 console.log('Recreating database...');
 
 const db = await connect();
